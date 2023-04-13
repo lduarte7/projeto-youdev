@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouDev - Seu futuro começa agora!</title>
+    <meta name="title" content="YouDev" />
+
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/svg-xml" />
+
+    <!-- custom font -->
+    <link rel="stylesheet" href="./assets/font/font.css" />
+
+    <!--  preload images -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-bg.png" />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- PRELOADER -->
+    <div class="preloader" data-preloader>
+      <div class="circle" data-circle></div>
+    </div>
+    <!-- ==================================== -->
+
+    <!-- NAVBAR E TOGGLE -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/Modern Yellow Pixel Gamepad Studio Game Logo.png"
+            width="125"
+            height="27"
+            alt="YouDev home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/Modern Yellow Pixel Gamepad Studio Game Logo.png"
+                width="125"
+                height="27"
+                alt="YouDev home"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link title-sm" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#cursos" class="navbar-link title-sm" data-nav-link>Cursos</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link title-sm" data-nav-link>Blog</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link title-sm" data-nav-link>Contato</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#" class="btn btn-secondary">Comece um teste gratuíto</a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-overlay data-nav-toggler></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+
+        <!-- Hero Section -->
+        <section
+          class="section hero has-bg-image"
+          aria-labelledby="hero-label"
+          style="background-image: url('./assets/images/hero-bg.png')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="headline-lg" id="hero-label">
+                O <span class="span">Futuro</span> começa com YouDev
+              </h1>
+
+              <p class="title-md has-before">
+                It is long established fact that reader distracted by the
+                readable content.
+              </p>
+
+              <div class="btn-group">
+                <a href="#" class="btn btn-primary">Começar agora</a>
+
+                <a href="#" class="btn btn-secondary">Começar agora</a>
+              </div>
+            </div>
+
+            <figure class="hero-banner">
+              <img
+                src="./assets/images/hero-banner.png"
+                width="590"
+                height="620"
+                alt="hero banner"
+                class="w-100"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- Category Section -->
+        <section class="section category has-bg-image" aria-labelledby="category-label"
+        style="background-image: url('./assets/images/category-bg.png')">
+        <div class="container">
+
+          <p class="title-sm text-center section-subtitle" id="category-label">Nossos Cursos</p>
+
+          <h2 class="headline-md text-center section-title">
+            Escolha as melhores <span class="span has-after">Categorias</span>
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/c3-icon.png" width="72" height="72" loading="lazy"
+                    alt="Construct icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">Construct 3</h3>
+
+                  <p class="title-sm">68 Cursos</p>
+                </div>
+
+                <a href="#" class="layer-link" aria-label="Construct Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/unity-logo.png" width="72" height="72" loading="lazy"
+                    alt="Unity icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">Unity</h3>
+
+                  <p class="title-sm">68 Cursos</p>
+                </div>
+
+                <a href="#" class="layer-link" aria-label="Unity Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/html-logo.png" width="72" height="72" loading="lazy"
+                    alt="Html icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">HTML 5</h3>
+
+                  <p class="title-sm">68 Cursos</p>
+                </div>
+
+                <a href="#" class="layer-link" aria-label="HTML Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/css-logo.png" width="72" height="72" loading="lazy"
+                    alt="Css icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">CSS 3</h3>
+
+                  <p class="title-sm">68 Cursos</p>
+                </div>
+
+                <a href="#" class="layer-link" aria-label="CSS Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/js-logo.png" width="72" height="72" loading="lazy"
+                    alt="Javascript icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">JavaScript</h3>
+
+                  <p class="title-sm">68 Cursos</p>
+                </div>
+
+                <a href="#" class="layer-link" aria-label="Java Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/git-icon.png" width="72" height="72" loading="lazy" alt="Itch icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">Gitch Hub</h3>
+
+                  <p class="title-sm">68 Cursos</p>
+                </div>
+
+                <a href="#" class="layer-link" aria-label="Gitch Category"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">Ver todos os cursos</a>
+
+        </div>
+      </section>
+
+        <!-- About Section -->
+      <section class="section about has-bg-image" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.png" width="775" height="685" loading="lazy" alt="about banner" class="w-100">
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="title-sm section-subtitle" id="about-label">Sobre a YouDev</p>
+
+            <h2 class="headline-md section-title">
+              Nós entregamos os melhores <span class="span has-after">Resultados</span> 
+            </h2>
+
+            <p class="title-sm section-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+            <ul class="progress-list">
+
+              <li>
+                <div class="progress-label-wrapper">
+                  <p class="title-sm">Estudos & Negócios</p>
+                  <p class="title-sm">86%</p>
+                </div>
+                  <div class="progress">
+                    <div class="progress-fill red"></div>
+                  </div>
+
+              </li>
+
+              <li>
+                <div class="progress-label-wrapper">
+                  <p class="title-sm">Marketing</p>
+                  <p class="title-sm">67%</p>
+                </div>
+
+                  <div class="progress">
+                    <div class="progress-fill green"></div>
+                  </div>
+
+              </li>
+
+              <li>
+                <div class="progress-label-wrapper">
+                  <p class="title-sm">Design & Desenvolvimento</p>
+                  <p class="title-sm">95%</p>
+                </div>
+                  <div class="progress">
+                    <div class="progress-fill yellow"></div>
+                  </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+
+        </div>
+
+
+
+      </section>
+
+        <!-- Courses Section -->
+        <section class="section course has-bg-image" aria-labelledby="course-label" style="background-image: url('./assets/images/course-bg.png');" id="cursos">
+
+          <div class="container">
+
+            <p class="title-sm section-subtitle text-center">Cursos em Destaque</p>
+
+            <h2 class="headline-md section-title text-center" id="course-label">
+              Escolha ilimitados <span class="span has-after">Cursos</span></h2>
+
+              <ul class="grid-list">
+
+            <li class="card-container">
+              <div class="card course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/course-1.png" width="370" height="248" loading="lazy"
+                    alt="Principios básicos de Construct 3" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+
+                    <p class="title-lg card-price">$29.28</p>
+
+                    <div class="rating-wrapper">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                    </div>
+
+                  </div>
+
+                  <h3 class="title-lg card-title">Como construir jogos na Construct 3
+                  </h3>
+
+                  <div class="card-meta wrapper">
+
+                    <p class="title-sm">
+                      <img src="./assets/images/file-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">2 Aulas</span>
+                    </p>
+
+                    <p class="title-sm">
+                      <img src="./assets/images/user-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">4k Estudantes</span>
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <a href="#" class="layer-link"
+                  aria-label="Como construir jogos na Construct 3"></a>
+
+              </div>
+            </li>
+
+            <li class="card-container">
+              <div class="card course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/course-2.png" width="370" height="248" loading="lazy"
+                    alt="Crie seu primeiro jogo na Unity 2D" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+
+                    <p class="title-lg card-price">$29.28</p>
+
+                    <div class="rating-wrapper">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                    </div>
+
+                  </div>
+
+                  <h3 class="title-lg card-title">Crie seu primeiro jogo na Unity 2D
+                  </h3>
+
+                  <div class="card-meta wrapper">
+
+                    <p class="title-sm">
+                      <img src="./assets/images/file-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">2 Aulas</span>
+                    </p>
+
+                    <p class="title-sm">
+                      <img src="./assets/images/user-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">4k Estudantes</span>
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <a href="#" class="layer-link"
+                  aria-label="Crie seu primeiro jogo na Unity 2D"></a>
+
+              </div>
+            </li>
+
+
+            <li class="card-container">
+              <div class="card course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/course-3.png" width="370" height="248" loading="lazy"
+                    alt="Comece agora no HTML 5" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+
+                    <p class="title-lg card-price">$29.28</p>
+
+                    <div class="rating-wrapper">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                    </div>
+
+                  </div>
+
+                  <h3 class="title-lg card-title">Introdução ao HTML 5
+                  </h3>
+
+                  <div class="card-meta wrapper">
+
+                    <p class="title-sm">
+                      <img src="./assets/images/file-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">2 Aulas</span>
+                    </p>
+
+                    <p class="title-sm">
+                      <img src="./assets/images/user-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">4k Estudantes</span>
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <a href="#" class="layer-link"
+                  aria-label="Introdução ao HTML 5"></a>
+
+              </div>
+            </li>
+
+
+            <li class="card-container">
+              <div class="card course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/course-4.png" width="370" height="248" loading="lazy"
+                    alt="Estilisando páginas WEB com CSS3" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+
+                    <p class="title-lg card-price">$29.28</p>
+
+                    <div class="rating-wrapper">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                    </div>
+
+                  </div>
+
+                  <h3 class="title-lg card-title">Estilisando páginas WEB com CSS3
+                  </h3>
+
+                  <div class="card-meta wrapper">
+
+                    <p class="title-sm">
+                      <img src="./assets/images/file-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">2 Aulas</span>
+                    </p>
+
+                    <p class="title-sm">
+                      <img src="./assets/images/user-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">4k Estudantes</span>
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <a href="#" class="layer-link"
+                  aria-label="Estilisando páginas WEB com CSS3"></a>
+
+              </div>
+            </li>
+
+              </ul>
+
+              <a href="#" class="btn btn-primary">Ver todos os cursos</a>
+              
+          </div>
+
+
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta" aria-labelledby="cta-label">
+          <div class="container">
+
+            <h2 class="headline-md section-title" id="cta-label">
+              Seja o próximo da sua geração a ter uma idéia inovadora.
+            </h2>
+
+            <a href="#" class="btn btn-tertiary">Registrar agora</a>
+
+          </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer has-bg-image" style="background-image: url('./assets/images/950263.jpg');">
+
+            <div class="section footer-top">
+              <div class="container">
+                <div class="footer-brand">
+
+                  <a href="#" class="logo">
+                    <img src="./assets/images/Modern Yellow Pixel Gamepad Studio Game Logo.png" width="145" height="27" alt="Youdemi home">
+                  </a>
+
+                  <p class="title-sm footer-text">Lorem ipsum amet, consectetur adipiscing elit. Suspendis varius enim eros elementum tristique. Duis cursus.</p>
+
+                  <ul class="social-list">
+
+                    <li>
+                      <a href="#" class="social-link">
+                        <img src="./assets/images/facebook.svg" width="40" height="40" loading="lazy" alt="facebook">
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="social-link">
+                        <img src="./assets/images/twitter.svg" width="40" height="40" loading="lazy" alt="twitter">
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="social-link">
+                        <img src="./assets/images/pinterest.svg" width="40" height="40" loading="lazy" alt="pinterest">
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="social-link">
+                        <img src="./assets/images/instagram.svg" width="40" height="40" loading="lazy" alt="instagram">
+                      </a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <ul class="footer-list">
+                  
+                  <li>
+                    <p class="headline-sm footer-list-title">Links</p>
+                  </li>
+
+                  <li>
+                    <a href="#" class="title-sm footer-link">Home</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="title-sm footer-link">Sobre nós</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="title-sm footer-link">Preços</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="title-sm footer-link">Entre em contato</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="title-sm footer-link">Blog</a>
+                  </li>
+
+                </ul>
+
+                <ul class="footer-list">
+                  
+                  <li>
+                    <p class="headline-sm footer-list-title">Legal</p>
+                  </li>
+
+                  <li>
+                    <a href="#" class="title-sm footer-link">Legal</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="title-sm footer-link">Termos de uso</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="title-sm footer-link">Termos & Condições</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="title-sm footer-link">Métodos de pagamento</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="title-sm footer-link">Políticas de Privacidade</a>
+                  </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                  <li>
+                    <p class="headline-sm footer-list-title">Instagram Post</p>
+
+                    <ul class="grid-list">
+
+                      <li>
+                        <img src="./assets/images/ins-1.png" width="80" height="80" loading="lazy" alt="instagram post" class="img-cover">
+                      </li>
+                      
+                      <li>
+                        <img src="./assets/images/ins-2.png" width="80" height="80" loading="lazy" alt="instagram post" class="img-cover">
+                      </li>
+
+                      <li>
+                        <img src="./assets/images/ins-3.png" width="80" height="80" loading="lazy" alt="instagram post" class="img-cover">
+                      </li>
+
+                      <li>
+                        <img src="./assets/images/ins-4.png" width="80" height="80" loading="lazy" alt="instagram post" class="img-cover">
+                      </li>
+
+                      <li>
+                        <img src="./assets/images/ins-5.png" width="80" height="80" loading="lazy" alt="instagram post" class="img-cover">
+                      </li>
+
+                      <li>
+                        <img src="./assets/images/ins-6.png" width="80" height="80" loading="lazy" alt="instagram post" class="img-cover">
+                      </li>
+
+                    </ul>
+                  </li>
+
+                </ul>
+
+              </div>
+
+            </div>
+
+            <div class="footer-bottom">
+              <div class="container">
+                <p class="copyright">
+                  © Copyright 2023 | YouDev Template | All Rights Reserved by Luis Duarte
+                </p>
+              </div>
+            </div>
+          
+        </footer>
+
+
+      </article>
+    </main>
+
+    <!-- custom js link -->
+    <script src="./assets/js/script.js"></script>
+    <!-- ==================================== -->
+
+    <!-- Ionicon -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
